@@ -1,4 +1,5 @@
-package nvsit
+// See LICENSE for license details.
+package ila
 
 import Chisel._
 import chisel3.util._
