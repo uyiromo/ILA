@@ -14,7 +14,7 @@ lazy val ila = (project in file("ILA")).
 ```scala
 // Example: to use ILA in srcs in freedomPlatforms
 lazy val freedomPlatforms = (project in file(".")).
-  dependsOn(rocketChip, sifiveBlocks, sifiveCache, nvdlaBlocks, openmpe, fpgaShells).
+  dependsOn(rocketChip, sifiveBlocks, sifiveCache, nvdlaBlocks, fpgaShells, ila).
   settings(commonSettings: _*)
 ```
 
