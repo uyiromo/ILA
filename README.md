@@ -21,6 +21,8 @@ lazy val freedomPlatforms = (project in file(".")).
 3. Instantiate ILA
 ```scala
 // Example
+import ila._
+
 val ila = ILA(clock, Seq(
     io.fe.master.bits.addr,
     memLevel,
